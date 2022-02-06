@@ -1,3 +1,60 @@
+var startQuiz = document.getElementById("start-quiz");
+var starQuizSection = document.getElementById("start-section")
+var quizsection = document.getElementById("quiz-section")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+startQuiz.addEventListener("click",
+    function () {
+        starQuizSection.classList.add("hide");
+
+        quizsection.classList.remove("hide")
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var questions = [
     {
         title: 'What is your name?',
@@ -32,29 +89,6 @@ var questions = [
     },
 
 ]
-
-var startQuiz = document.getElementById("start-quiz");
-var starQuizSection = document.getElementById("start-section")
-var quizsection = document.getElementById("quiz-section")
-
-startQuiz.addEventListener("click",
-    function () {
-        starQuizSection.classList.add("hide");
-
-        quizsection.classList.remove("hide")
-    }
-)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
