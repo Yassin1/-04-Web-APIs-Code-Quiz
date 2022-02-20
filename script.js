@@ -4,17 +4,6 @@ var quizsection = document.getElementById("quiz-section")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 startQuiz.addEventListener("click",
     function () {
         starQuizSection.classList.add("hide");
@@ -55,40 +44,40 @@ startQuiz.addEventListener("click",
 
 
 
-var questions = [
-    {
-        title: 'What is your name?',
-        correctAnswer: "sam",
-        answers: [
-            "john",
-            "sam",
-            "peter",
-            "kim"
-        ]
-    },
-    {
-        title: 'What is your age?',
-        correctAnswer: "22",
-        answers: [
-            "11",
-            "30",
-            "25",
-            "22"
-        ]
-    },
-    {
-        title: 'Where are you from?',
-        correctAnswer: "canada",
-        answers: [
-            "newyork",
-            "la",
-            "vegas",
-            "canada"
-        ]
+// var questions = [
+//     {
+//         title: 'What is your name?',
+//         correctAnswer: "sam",
+//         answers: [
+//             "john",
+//             "sam",
+//             "peter",
+//             "kim"
+//         ]
+//     },
+//     {
+//         title: 'What is your age?',
+//         correctAnswer: "22",
+//         answers: [
+//             "11",
+//             "30",
+//             "25",
+//             "22"
+//         ]
+//     },
+//     {
+//         title: 'Where are you from?',
+//         correctAnswer: "canada",
+//         answers: [
+//             "newyork",
+//             "la",
+//             "vegas",
+//             "canada"
+//         ]
 
-    },
+//     },
 
-]
+// ]
 
 
 

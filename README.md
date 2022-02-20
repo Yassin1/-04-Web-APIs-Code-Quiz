@@ -1,4 +1,4 @@
-For homwrork 4 our task was to build a code quiz APPLICATION. 
+For homework 4 the task is to build a code quiz APPLICATION. 
 
 THE Acceptance Criteria ARE AS FOLLOWS.
 
@@ -14,12 +14,4 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and set my score on the board
 ```
-
-MY WORK!!
-
-I began by building the front-end with HTML and CSS. keeping in mind the class and id's for the DOM. 
-I began with 
-
-
-
 
